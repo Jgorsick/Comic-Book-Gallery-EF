@@ -8,9 +8,9 @@ namespace ComicBookGalleryModel
             public Context()
 
         {
-            Database.SetInitializer(new DropCreateDatabaseIfModelChanges<Context>());
+            //Database.SetInitializer(new DropCreateDatabaseIfModelChanges<Context>());
             //Database.SetInitializer(new CreateDatabaseIfNotExists<Context>());
-           // Database.SetInitializer(new DropCreateDatabaseAlways<Context>());
+            Database.SetInitializer(new DropCreateDatabaseAlways<Context>());
 
 
         }
