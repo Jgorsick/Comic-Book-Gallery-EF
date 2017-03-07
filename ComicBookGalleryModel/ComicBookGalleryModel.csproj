@@ -54,6 +54,7 @@
   <ItemGroup>
     <Compile Include="Artist.cs" />
     <Compile Include="context.cs" />
+    <Compile Include="DataBaseInitializer.cs" />
     <Compile Include="Models\ComicBook.cs" />
     <Compile Include="Models\ComicBookArtist.cs" />
     <Compile Include="Models\Role.cs" />
